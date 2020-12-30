@@ -1,0 +1,101 @@
+html{background-color: #bcd4e6;}
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+header {
+  background-color:#6c757d;
+  color: white; 
+  border-radius: 10px;
+  text-align: left;
+  font-size: 45px; 
+  padding-left: 10px;
+}
+.header_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation { 
+font-size: 35px;
+}
+#about {
+  padding: 0px 10px 0px 10px;
+}
+.nav_tags {
+  padding-right: 20px;
+  font-size: 35px;
+}
+.home_h2 {
+  padding-left: 10px;
+}
+
+h2 {
+  font-size: 45px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+.image_container {
+  width: 500px;
+}
+.image_container img {
+ max-width: 100%;
+}
+.home_container {
+  display: flex;
+  /* width: 50%; */
+  justify-content: space-around;
+}
+.p_container {
+  width: 500px;
+  font-size: 30px;
+}
+.portfolio_container{
+  text-align: center;
+}
+.diamond {
+  display: flex;
+  justify-content: center;
+}
+.hr_portfolio {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #000;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+.hide_dot {
+  list-style: none;
+}
+.center_skills{
+ display: flex;
+ justify-content: center; 
+}
+.diamond_format {
+  font-size: 12px;
+  padding: 10px;
+}
+footer {
+  background-color: #6c757d;
+  color: white;
+  border-radius: 10px; 
+  font-size: 30px;
+  text-align: center
+}
+.footer_ol {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+a:link    { color:  hsl(120, 11%, 95%);  }
+a:visited { color: hsl(120, 100%, 5%); }
+a:hover   { color: hsl(120, 1%, 73%); }
+a:active  { color: hsl(120, 2%, 37%); }
